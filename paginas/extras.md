@@ -41,6 +41,6 @@ Elimina el elemento hijo que se le indique.
 
 ### ATRIBUTOS ÚTILES
 #### [1. Style](https://www.w2schools.com/jsref/dom_obj_style.asp)
-#### Id
-#### 2. ClassName
-#### 3. Name
+#### 2. Id
+#### 3. ClassName
+#### 4. Name
