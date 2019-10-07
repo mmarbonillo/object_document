@@ -45,7 +45,7 @@ function funcion(){
 
     //GET ELEMENT BY ID
     menu = document.getElementById("menu");
-    alert(menu);
+    alert(menu.innerHTML);
     /*elementoUl = menu.children[0];
     elemento = document.createElement("li");
     contenido = document.createTextNode("Otro apartado más");

@@ -72,4 +72,20 @@ Estos tres métodos van de la mano.
 
 **3.2.2 Get Element By Id**
 
-Devuelve
+Devuelve un objeto HTML con el elemento que tenga como propiedad 'id' el string que se le pasa..
+
+    document.getElementById(idName);    
+
+**3.2.2 Get Elements By Name**
+
+Devuelve un array de objetos HTML con los elementos que tengan como propiedad 'name' el string que se le pasa.
+
+    document.getElementsByName(nameName);    
+
+**3.2.3 Get Elements By Tag Name**
+
+Devuelve un array de objetos HTML con los elementos que haya recogido.
+
+    document.getElementsByTagName(tagName);    
+
+
