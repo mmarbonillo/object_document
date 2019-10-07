@@ -69,19 +69,23 @@ Estos tres métodos van de la mano.
     document.write(text);    
     document.close();    
 
-[Ejemplo](examples/01.html)
+[Ejemplo](examples/ej01/index.html)
 
 **3.2.2 Get Element By Id**
 
 Devuelve un objeto HTML con el elemento que tenga como propiedad 'id' el string que se le pasa..
 
-    document.getElementById(idName);    
+    document.getElementById(idName);   
+
+[Ejemplo](examples/ej02/index.html)
 
 **3.2.2 Get Elements By Name**
 
 Devuelve un array de objetos HTML con los elementos que tengan como propiedad 'name' el string que se le pasa.
 
-    document.getElementsByName(nameName);    
+    document.getElementsByName(nameName);
+
+[Ejemplo](examples/ej03/index.html)    
 
 **3.2.3 Get Elements By Tag Name**
 
