@@ -46,6 +46,13 @@ Este método pasó a ser del objeto 'window'.
 
     document.routeEvent();
 
+**3.2.2 Get Selection**\*
+
+Devuelve un objeto [Selection](https://developer.mozilla.org/es/docs/Web/API/Selection) que representa el texto que se ha seleccionado.
+
+    document.getSelection();    
+
+
 ### 3.2 ACTUALES
 **3.2.1 Open, Write y Close**
 
@@ -61,6 +68,5 @@ Estos tres métodos van de la mano.
     document.open();     
     document.write(text);    
     document.close();    
-
 
 
