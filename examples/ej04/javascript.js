@@ -6,7 +6,7 @@ function funcion(){
 }
 
 function objeto(){
-    var elementos = document.getElementsByTagName("ul");
+    var elementos = document.getElementsByTagName("li");
     for(i = 0; i < elementos.length; i++){
         alert("" + i + ": " + elementos[i]);
     }

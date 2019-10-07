@@ -1,5 +1,5 @@
-## 3 OBJETO ELEMENT
-**3.1 Append Child**
+## 2 OBJETO ELEMENT
+**2.1 Append Child**
 
 Con este método podemos añadirle un nodo hijo a un elemento.
 
@@ -7,7 +7,7 @@ Con este método podemos añadirle un nodo hijo a un elemento.
 
 [Ejemplo](examples/ej05/index.html)
 
-**3.2 Has Child Nodes**
+**2.2 Has Child Nodes**
 
 Devuelve *True* o *False* dependiendo si el elemento tiene nodos hijos o no.
 
@@ -15,7 +15,7 @@ Devuelve *True* o *False* dependiendo si el elemento tiene nodos hijos o no.
 
 [Ejemplo](examples/ej06/index.html)
 
-**3.3 Child Nodes**
+**2.3 Child Nodes**
 
 Esta **propiedad** devuelve como un array **TODOS** los nodos hijos de un elemento.
 
@@ -23,21 +23,24 @@ Esta **propiedad** devuelve como un array **TODOS** los nodos hijos de un elemen
 
 [Ejemplo](examples/ej07/index.html)
 
-**3.4 Replace Child**
+**2.4 Replace Child**
 
 Este método se usa para reemplazar un hijo por otro.
 
     element.replaceChild(oldChild, newChild);
 
-[Ejemplo](examples/ej08/index.html)
+[Ejemplo](../examples/ej08/index.html)
 
-**3.5 Remove Child**
+**2.5 Remove Child**
 
 Elimina el elemento hijo que se le indique.
 
     emelent.removeChild(child);
 
-[Ejemplo](examples/ej09/index.html)
+[Ejemplo](../examples/ej09/index.html)
 
 ### ATRIBUTOS ÚTILES
-#### [1. Style](https://www.w3schools.com/jsref/dom_obj_style.asp)
+#### [1. Style](https://www.w2schools.com/jsref/dom_obj_style.asp)
+#### Id
+#### 2. ClassName
+#### 3. Name

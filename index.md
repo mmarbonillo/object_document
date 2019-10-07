@@ -3,7 +3,7 @@
    - [1.2 Nodo](#nodo)
    - [1.3 Elemento](#elemento)
    - [1.4 Objeto](#objeto)
-   - [1.5 El Objeto Document](document)
+   - [1.5 El Objeto Document](#document)
 2. [DOCUMENT](paginas/document.md)
 3. [EXTRAS](paginas/extras.md)
 
@@ -17,7 +17,7 @@ Es la representacíon gráfica en forma de árbol de todos los nodos de una pág
 
 Es el conjunto de elementos interconectados entre sí que representan el contenido de una página.
 
-### Elementos <a name="elemento"></a>
+### ELEMENTOS <a name="elemento"></a>
 
 Un elemento es un nodo de forma individual.
 
