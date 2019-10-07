@@ -9,7 +9,7 @@ Con el objeto document se controla la página web y todos los elementos que cont
 
 ## 2 ¿Dónde está situado?
 
-Document depende directamente del elemento raíz en la jerarquia de objetos, es decir, de 'window'. También puede depender del objeto [frame](https://desarrolloweb.com/articulos/1147.php) en caso de que la página se está mostrando en un frame.
+Document depende directamente del elemento raíz en la jerarquia de objetos, es decir, de [window](https://www.w3schools.com/jsref/obj_window.asp). También puede depender del objeto [frame](https://desarrolloweb.com/articulos/1147.php) en caso de que la página se está mostrando en un frame.
 
 ![Jerarquía de objetos en JavaScript](jerarquia.jpg)
 
@@ -35,14 +35,14 @@ Ahora este método pertenece al objeto eventListener.
 **3.1.3 Release Events**
 
 Hace que el documento deje de capturar un evento concreto.
-Ahora pertenece al objero 'window'.
+Ahora pertenece al objero [window](https://www.w3schools.com/jsref/obj_window.asp).
 
     document.releaseEvents(event);    
 
 **3.1.4 Route Event**
 
 Solía usarse para mandar un evento al siguiente objeto que solicitó carturar eventos (handleEvent).
-Este método pasó a ser del objeto 'window'.
+Este método pasó a ser del objeto [window](https://www.w3schools.com/jsref/obj_window.asp).
 
     document.routeEvent();
 
@@ -53,7 +53,7 @@ Devuelve un objeto [Selection](https://developer.mozilla.org/es/docs/Web/API/Sel
     document.getSelection();    
 
 
-### 3.2 ACTUALES
+### 3.2 EN USO
 **3.2.1 Open, Write y Close**
 
 Estos tres métodos van de la mano.
@@ -69,6 +69,7 @@ Estos tres métodos van de la mano.
     document.write(text);    
     document.close();    
 
+[Ejemplo](examples/01.html)
 
 **3.2.2 Get Element By Id**
 
@@ -87,5 +88,49 @@ Devuelve un array de objetos HTML con los elementos que tengan como propiedad 'n
 Devuelve un array de objetos HTML con los elementos que haya recogido.
 
     document.getElementsByTagName(tagName);    
+
+**3.2.4 Create Text Node**
+
+Sirve para crear un nodo de tipo texto (\<p>).
+
+    var elementP = document.createTextNode(String);
+
+**3.2.5 Create Element**
+
+Con este método podemos crear nuevos elementos.
+
+    var element = document.createElement(tag);
+
+
+### 3.3 EXTRAS
+**3.3.1 Has Child Nodes**
+
+Devuelve *True* o *False* dependiendo si el elemento tiene nodos hijos o no.
+
+    element.hasChildNodes();    
+
+**3.3.2 Child Nodes**
+
+Esta **propiedad** devuelve como un array **TODOS** los nodos hijos de un elemento.
+
+    var child = element.childNodes;
+
+**3.3.3 Append Child**
+
+Con este método podemos añadirle un nodo hijo a un elemento.
+
+    element.appendChild(childNode);
+
+**3.3.4 Replace Child**
+
+Este método se usa para reemplazar un hijo por otro.
+
+    element.replaceChild(oldChild, newChild);
+
+**3.3.5 Remove Child**
+
+Elimina el elemento hijo que se le indique.
+
+    emelent.removeChild(child);
 
 
