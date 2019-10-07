@@ -70,3 +70,6 @@ Estos tres métodos van de la mano.
     document.close();    
 
 
+**3.2.2 Get Element By Id**
+
+Devuelve

@@ -44,9 +44,9 @@ function funcion(){
 function funcion(){
 
     //GET ELEMENT BY ID
-    /*menu = document.getElementById("menu");
+    menu = document.getElementById("menu");
     alert(menu);
-    elementoUl = menu.children[0];
+    /*elementoUl = menu.children[0];
     elemento = document.createElement("li");
     contenido = document.createTextNode("Otro apartado más");
     elemento.appendChild(contenido);
@@ -96,17 +96,17 @@ function funcion(){
     
 
     //REMPLACE CHILD
-    menuUl = document.getElementsByTagName("ul");
+    /*menuUl = document.getElementsByTagName("ul");
     hijos = menuUl[0].childNodes;
-    /*nuevo = document.createElement("li");
+    nuevo = document.createElement("li");
     contenido = document.createTextNode("LI NUEVO");
     nuevo.appendChild(contenido);
-    menuUl.replaceChild(nuevo, hijos[7]);*/
+    menuUl.replaceChild(nuevo, hijos[7]);
     i=0;
     for(i = 0; i < hijos.length; i++){
         alert(hijos[i]);
     }
-    alert(i);
+    alert(i);*/
     
 
 }
