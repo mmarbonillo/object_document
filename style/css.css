@@ -1,0 +1,101 @@
+#todo {
+	width: 95%;
+	position: relative;
+	margin: 0 auto;
+	background-size: 100%;	
+		
+}	
+	
+#button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+#contenido {
+	float: left;
+	width: 60%;
+	color: black;
+	font-family: 'Acme', sans-serif;
+}
+
+/*#fotofondo {
+	background-image: url("../images/fondo.jpg");
+}*/
+
+.clear {
+	clear: both;
+}
+
+#encabezado {
+	float: left;
+	width: 100%;
+	height: 15%;
+	position: relative;
+	margin: auto;
+}
+
+#encabezado img {
+	width: 100%;
+	height: 100px;
+}
+
+#menu {
+	border: 2px solid black;
+	float:left;
+	width: 200px;
+	max-width: 200px;
+	word-wrap: break-word;
+	background-color: rgba(255, 255, 255, 0.5);
+	list-style:none;
+}
+
+#menu ul {
+	margin-left: -8%;
+}
+
+#menu ul li {
+	font: 115% Arial;
+	list-style:none;
+	margin-bottom: 5%;
+}
+
+#menu ul li a {
+	opacity: 1;
+}
+
+a:link, a:visited, a:active { 
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+a:hover#menu {
+	font-size: 20px;
+}
+
+.submenu {
+	margin-left: 10%;
+}
+
+#redes {
+	float: right;
+	width: 18%;
+	margin-right: 2em;
+}
+
+.twitter-timeline {
+	width: 30%;
+}
+
+.error {
+	text-align: center;
+}
+
+#contenido.error{
+	height: 600px;
+}

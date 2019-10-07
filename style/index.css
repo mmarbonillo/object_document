@@ -1,0 +1,13 @@
+#contenido p {
+	text-indent: 1.5em;
+}
+
+#contenido p::first-letter {
+	font-size: 130%;
+}
+
+#fotoindex {
+	float: left;
+	width: 230px;
+	padding: 10px;
+}

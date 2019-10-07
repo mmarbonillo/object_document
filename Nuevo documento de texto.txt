@@ -1,0 +1,10 @@
+document.captureEvents(): Sirve para especificar que tipo de eventos tiene que recoger el documento. DEPRECATED
+document.close(): finaliza la escritura de un documento abierta. 
+document.getSelection(): Devuelve un Selection que representa el texto que se ha seleccionado.
+document.handleEvent(event): Recoge un evento concreo para realizar una serie de procesos o acciones cuando el evento indicado se produzca. Ahora este método pertenece al objeto eventListener.
+document.home(): No se que hace porque ya ni sale en internet.
+document.open(): Abre un documento para poder escribir en él.
+document.releaseEvents(event): Hace que el documento deje de capturar un evento concreto. Pasó a ser del objeto window del cual también quedó obsoleto.
+document.routeEvent(): Solía usarse para mandar un evento al siguiente objeto que solicitó carturar eventos (handleEvent). Este método pasó a ser del objeto window y ya se ha quedado obsoleto.
+document.write(String text): Escribe un texto en el documento.
+document.writeln(String text): Escribe un texto en el documento y además le mete un retorno de carro.
