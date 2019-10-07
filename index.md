@@ -57,7 +57,8 @@ Estos tres métodos van de la mano.
 
 - Con *close* cerramos el documento.
 
-    document.open();    
+
+    document.open();     
     document.write(text);    
     document.close();    
 
