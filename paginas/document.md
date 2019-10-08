@@ -96,13 +96,26 @@ Por ejemplo: Si quisiesemos recoger un enlace y cambiarle su 'href' se haría de
     var enlace = document.getElementsByTagName(a);
     enlace[0].href = "URL";
 
-**1.2.4 Create Text Node**
+**1.2.4 Forms**
+
+Si tenemos más de un formulario en nuestra página, podemos recogerlos todos usando ese atributo.
+
+    var formularios = document.forms;   
+
+De esta forma podríamos recorrer los formularios para tratarlos de forma independiente.
+
+    var formularios = document.forms;
+    for(i = 0; i < formularios.length; i++){
+        formularios[i]....
+    }
+
+**1.2.5 Create Text Node**
 
 Sirve para crear un nodo de tipo texto.
 
     var elementP = document.createTextNode(String);
 
-**1.2.5 Create Element**
+**1.2.6 Create Element**
 
 Con este método podemos crear nuevos elementos.
 
