@@ -1,5 +1,6 @@
 function funcion(){
     var elementos = document.getElementsByName("elementoMenu");
+    
     for(i = 0; i < elementos.length; i++){
         alert("" + i + ": " + elementos[i].innerHTML);
     }
