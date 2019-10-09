@@ -9,7 +9,7 @@
 
 ### ÁRBOL DOM <a name="dom"></a>
 
-Es la representacíon gráfica en forma de árbol de todos los nodos de una página.
+Es la representacíon gráfica en forma de árbol de la estructura de una página.
 
 ![DOM](dom.png)
 
